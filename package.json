@@ -1,0 +1,22 @@
+{
+  "name": "miniprogram-qrcode-image",
+  "version": "1.0.0",
+  "description": "生成小程序码辅助工具。",
+  "main": "core/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jon-Millent/miniprogram-qrcode-image.git"
+  },
+  "author": "jon-millent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jon-Millent/miniprogram-qrcode-image/issues"
+  },
+  "homepage": "https://github.com/Jon-Millent/miniprogram-qrcode-image#readme",
+  "dependencies": {
+    "sharp": "^0.21.0"
+  }
+}
