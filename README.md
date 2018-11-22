@@ -3,7 +3,7 @@
 
 
 <h1 align="center">
-miniprogram-qrcode-image
+miniqr-image
 </h1>
 
 支持将小程序码合成到指定模板图片上
@@ -12,13 +12,13 @@ miniprogram-qrcode-image
 ## 安装
 
 ```
-npm install miniprogram-qrcode-image --save
+npm install miniqr-image --save
 ```
 #### windows
 windows依赖于`libvips`，由于安装时候下载该库较慢，请参考下面方法安装
 * 进入 `npm-cache` 目录，一般`npm-cache`位于 (输入 `npm root -g`) 的同级目录
 * 下载 https://share.weiyun.com/5ZIyyAH 复制到 `/npm-cache/_libvips/` 下
-* `npm install miniprogram-qrcode-image --save`
+* `npm install miniqr-image --save`
 
 #### linux
 > 在 linux 下安装的时候会可能会报`libvips`相关的错误，因为`sharp`库依赖于`libvips`，首先安装`libvips`
@@ -35,7 +35,7 @@ sudo ldconfig
 然后
 
 ```
-npm install miniprogram-qrcode-image --save
+npm install miniqr-image --save
 ```
 
 
@@ -46,9 +46,9 @@ npm install miniprogram-qrcode-image --save
 
 ```js
 const path = require('path')
-const miniprogramImage = require('miniprogram-qrcode-image')
+const miniSharp = require('miniqr-image')
 
-let mySharp = new miniprogramImage(path.join(__dirname, '../template.png')); // 传入指定的模板图片 如下图。
+let mySharp = new miniSharp(path.join(__dirname, '../template.png')); // 传入指定的模板图片 如下图。
 
 ```
 

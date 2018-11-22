@@ -1,5 +1,5 @@
 {
-  "name": "miniprogram-qrcode-image",
+  "name": "miniqr-image",
   "version": "1.0.0",
   "description": "生成小程序码辅助工具。",
   "main": "core/index.js",
