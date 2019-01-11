@@ -16,6 +16,10 @@ npm install miniqr-image --save
 ```
 #### windows
 windows依赖于`libvips`，由于安装时候下载该库较慢，请参考下面方法安装
+
+1.方法一（推荐）
+<a href="https://github.com/Jon-Millent/rn-book/blob/master/%E9%99%84%E5%BD%951-%E4%BB%A3%E7%90%86cmd.MD">开小飞机代理cmd</a>
+1.方法二
 * 进入 `npm-cache` 目录，一般`npm-cache`位于 (输入 `npm root -g`) 的同级目录
 * 下载 https://share.weiyun.com/5ZIyyAH 复制到 `/npm-cache/_libvips/` 下
 * `npm install miniqr-image --save`
