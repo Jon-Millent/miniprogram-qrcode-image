@@ -2,6 +2,10 @@
 
 
 
+<p align="center">
+  <img src="https://i.loli.net/2018/11/16/5beeba0e1bb08.png" width="400px" alt="未标题-2.png" title="未标题-2.png" />
+</p>
+
 <h1 align="center">
 miniqr-image
 </h1>
@@ -17,7 +21,8 @@ npm install miniqr-image --save
 #### windows
 windows依赖于`libvips`，由于安装时候下载该库较慢，请参考下面方法安装
 
-1.方法一（推荐）
+1.方法一（推荐）  
+
 <a href="https://github.com/Jon-Millent/rn-book/blob/master/%E9%99%84%E5%BD%951-%E4%BB%A3%E7%90%86cmd.MD">开小飞机代理cmd</a>  
 
 2.方法二
